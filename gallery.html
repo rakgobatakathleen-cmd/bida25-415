@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Delta and Beyond</title>
+    <meta name="description" content="Immerse yourself in high-quality photographs of Botswana landscapes, wildlife, and culture.">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .page-header {
+            background: linear-gradient(rgba(15,16,20,0.8), rgba(15,16,20,0.9)), url('media/WhatsApp Image 2026-03-28 at 21.55.33.jpeg') center/cover;
+            height: 40vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: 76px;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top bg-dark border-bottom border-secondary">
+        <div class="container">
+            <a class="navbar-brand text-uppercase" href="index.html">Delta & Beyond</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="showcase.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="feedback.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <header class="page-header mt-0" style="padding-top: 50px;">
+        <div class="container fade-in-scroll">
+            <h1 class="display-4 fw-bold text-light mb-3">Photo Gallery</h1>
+            <p class="lead text-light" style="max-width: 600px; margin: 0 auto;">Visual stories from the heart of Southern Africa.</p>
+        </div>
+    </header>
+
+    
+    <section class="section-padding" style="background-color: var(--bg-dark);">
+        <div class="container fade-in-scroll">
+            
+            
+            <ul class="nav nav-pills justify-content-center mb-5" id="gallery-tabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active btn-outline-custom mx-1" style="background-color: transparent; border: 1px solid var(--primary-color); border-radius: 30px; padding: 8px 25px;" id="all-tab" data-bs-toggle="pill" data-bs-target="#all" type="button" role="tab">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn-outline-custom mx-1" style="background-color: transparent; border: 1px solid var(--primary-color); border-radius: 30px; padding: 8px 25px;" id="wildlife-tab" data-bs-toggle="pill" data-bs-target="#wildlife" type="button" role="tab">Wildlife</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn-outline-custom mx-1" style="background-color: transparent; border: 1px solid var(--primary-color); border-radius: 30px; padding: 8px 25px;" id="landscapes-tab" data-bs-toggle="pill" data-bs-target="#landscapes" type="button" role="tab">Landscapes</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link btn-outline-custom mx-1" style="background-color: transparent; border: 1px solid var(--primary-color); border-radius: 30px; padding: 8px 25px;" id="culture-tab" data-bs-toggle="pill" data-bs-target="#culture" type="button" role="tab">Culture</button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="galleryContent">
+                
+                <div class="tab-pane fade show active" id="all" role="tabpanel">
+                    <div class="row g-4">
+                        
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="media/WhatsApp Image 2026-03-28 at 21.55.31.jpeg" alt="Botswana Scene 1">
+                                <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="media/WhatsApp Image 2026-03-28 at 21.55.32.jpeg" alt="Botswana Scene 2">
+                                <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="media/WhatsApp Image 2026-03-28 at 21.55.33.jpeg" alt="Botswana Scene 3">
+                                <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="media/WhatsApp Image 2026-03-28 at 21.55.35.jpeg" alt="Botswana Scene 4">
+                                <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-6">
+                            <div class="gallery-item">
+                                <img src="media/WhatsApp Image 2026-03-28 at 21.55.38.jpeg" alt="Botswana Scene 5">
+                                <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-lg-8 col-md-6">
+                            <div class="gallery-item">
+                                <img src="media/WhatsApp Image 2026-03-28 at 21.55.39.jpeg" alt="Botswana Scene 6">
+                                <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item">
+                                <img src="media/WhatsApp Image 2026-03-28 at 21.55.40.jpeg" alt="Botswana Scene 7">
+                                <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="col-lg-6 col-md-6">
+                            <div class="gallery-item">
+                                <img src="media/WhatsApp Image 2026-03-28 at 21.55.41.jpeg" alt="Botswana Scene 8">
+                                <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="gallery-item">
+                                <img src="media/WhatsApp Image 2026-03-28 at 21.55.42.jpeg" alt="Botswana Scene 9">
+                                <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="tab-pane fade" id="wildlife" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item"><img src="media/WhatsApp Image 2026-03-28 at 21.55.41.jpeg" alt="Wildlife"><div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div></div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="gallery-item"><img src="media/WhatsApp Image 2026-03-28 at 21.55.35.jpeg" alt="Wildlife"><div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="landscapes" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="gallery-item"><img src="media/WhatsApp Image 2026-03-28 at 21.55.31.jpeg" alt="Landscape"><div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div></div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="gallery-item"><img src="media/WhatsApp Image 2026-03-28 at 21.55.33.jpeg" alt="Landscape"><div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="culture" role="tabpanel">
+                    <div class="row g-4">
+                        <div class="col-lg-12">
+                            <h4 class="text-center text-muted m-5">More cultural images coming soon...</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <span class="footer-logo">Delta & Beyond</span>
+                    <p class="footer-text">Promoting sustainable, low-impact, high-value tourism across the majestic landscapes of Botswana.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="showcase.html">Explore Destinations</a></li>
+                        <li><a href="gallery.html">Photo Gallery</a></li>
+                        <li><a href="about.html">About Botswana</a></li>
+                        <li><a href="feedback.html">Plan Your Trip</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h4 class="footer-heading">Contact Information</h4>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-geo-alt me-2" style="color: var(--primary-color);"></i> Gaborone, Botswana</li>
+                        <li><i class="bi bi-envelope me-2" style="color: var(--primary-color);"></i> hello@deltaandbeyond.com</li>
+                        <li><i class="bi bi-telephone me-2" style="color: var(--primary-color);"></i> +267 395 0000</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4 pt-4 text-center" style="border-top: 1px solid rgba(255,255,255,0.05);">
+                <div class="col-12">
+                    <p class="footer-text m-0">&copy; 2026 Delta and Beyond. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        // Custom styling trick for pills
+        document.querySelectorAll('#gallery-tabs .nav-link').forEach(tab => {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('#gallery-tabs .nav-link').forEach(t => {
+                    t.style.backgroundColor = 'transparent';
+                    t.style.color = 'var(--primary-color)';
+                });
+                this.style.backgroundColor = 'var(--primary-color)';
+                this.style.color = 'var(--bg-dark)';
+            });
+            
+            // Initial load styling hack
+            if(tab.classList.contains('active')) {
+                tab.style.backgroundColor = 'var(--primary-color)';
+                tab.style.color = 'var(--bg-dark)';
+            }
+        });
+    </script>
+</body>
+</html>
